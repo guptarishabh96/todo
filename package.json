@@ -4,6 +4,7 @@
   "description": "A simple To-Do List application",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rishabh Gupta",
