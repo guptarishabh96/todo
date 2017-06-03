@@ -74,7 +74,7 @@ app.delete("/todo/:term", function(req, res) {
     });
 });
 
-app.listen(3000);
+app.listen(process.env.PORT);
 
 console.log("Express app running on port 3000");
 
